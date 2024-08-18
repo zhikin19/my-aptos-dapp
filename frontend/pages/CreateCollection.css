@@ -1,0 +1,45 @@
+/* Custom container and layout */
+.custom-container {
+    display: flex;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: linear-gradient(to bottom right, #0d3b66, #faf3dd);
+    color: #333;
+    border-radius: 8px;
+  }
+  
+  /* Sidebar and content layout */
+  .custom-sidebar {
+    width: 25%;
+  }
+  
+  .custom-content {
+    width: 75%;
+  }
+  
+  /* Custom card styles */
+  .custom-card {
+    background-color: #fff;
+    color: #0d3b66;
+    border-radius: 8px;
+    padding: 1.5rem;
+  }
+  
+  /* Button and input customization */
+  .custom-button {
+    background-color: #ee964b;
+    color: white;
+  }
+  
+  .custom-button:hover {
+    background-color: #f95738;
+  }
+  
+  /* Tooltip styles */
+  .custom-tooltip {
+    background-color: #f4d35e;
+    color: #0d3b66;
+  }
+  
